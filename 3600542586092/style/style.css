@@ -254,6 +254,16 @@ body {
     object-position: 12%;
     height: 100%;
   }
+
+  #es-garnier.es-garnier .es-kv__content img {
+    min-height: auto;
+    margin-left: 3%;
+  }
+
+  #es-garnier.es-garnier .es-kv__text {
+    left: 23%;
+    top: 38%;
+  }
 }
 
 /*********************************************/
@@ -1618,6 +1628,24 @@ body {
   #es-garnier.es-garnier .es-ingredients__single {
     width: 220px;
     height: 240px;
+  }
+}
+
+@media screen and (min-width: 860px) {
+  #es-garnier.es-garnier .es-kv__img {
+    width: 100%;
+  }
+
+  #es-garnier.es-garnier .es-kv__img--photo {
+    object-position: 83%;
+  }
+
+  #es-garnier.es-garnier .es-kv__title {
+    font-size: 20px;
+  }
+
+  #es-garnier.es-garnier .es-kv__subtitle {
+    font-size: 16px;
   }
 }
 
