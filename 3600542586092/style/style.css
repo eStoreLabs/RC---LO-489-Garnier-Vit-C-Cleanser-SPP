@@ -56,7 +56,7 @@ body {
   position: absolute;
   text-align: left;
   position: absolute;
-  left: 20%;
+  left: 25%;
   top: 35%;
 }
 
@@ -82,7 +82,16 @@ body {
   aspect-ratio: auto;
   width: 100%;
   height: auto;
-  min-height: 200px;
+  min-height: 220px;
+}
+
+#es-garnier.es-garnier .es-kv__img--photo {
+  max-height: 250px;
+  object-fit: cover;
+}
+
+#es-garnier.es-garnier .es-kv__img--packshot {
+  width: 140%;
 }
 
 #es-garnier.es-garnier .es-kv__title {
@@ -161,7 +170,28 @@ body {
   }
 }
 
+@media screen and (min-width: 500px) {
+  #es-garnier.es-garnier .es-kv__img--photo {
+    max-height: 400px;
+  }
+
+  #es-garnier.es-garnier .es-kv__title {
+    font-size: 19px;
+  }
+  #es-garnier.es-garnier .es-kv__subtitle {
+    font-size: 17px;
+  }
+
+  #es-garnier.es-garnier .es-kv__text {
+    top: 48%;
+  }
+}
+
 @media screen and (min-width: 768px) {
+  #es-garnier.es-garnier .es-kv__text {
+    left: 20%;
+  }
+
   #es-garnier.es-garnier .es-cross__container {
     max-width: 600px;
     margin: 0 auto;
